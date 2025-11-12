@@ -1,0 +1,99 @@
+.offers-section {
+  position: relative;
+  background-image: url("../assets/OffersBG.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+ 
+}
+.section-heading {
+  position: relative;
+  display: inline-block;
+  color: #37ACE2 !important;
+  font-family: "Poppins" !important;
+  font-size: 30px;
+}
+.section-heading::after{
+   
+  
+  content: "";
+  position: absolute;
+  width: 69px;
+  height: 3px;
+  bottom: -10px;
+  left:30%;
+  background-color: #D7DE36;
+ 
+}
+
+.svg-card {
+  position: relative;
+  width: 100%;
+  max-width: 350px;
+  height: 330px;
+  margin: auto;
+}
+
+.card-svg-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  filter: drop-shadow(0 5px 15px rgba(0, 0, 0, 0.08));
+  z-index: 1;
+}
+
+.svg-card-content {
+  position: relative;
+  z-index: 2;
+  padding: 35px 25px 60px;
+  background: transparent;
+}
+
+.service-icon {
+  width: 95px;
+  height: 55px;
+  object-fit: contain;
+  
+}
+
+
+.svg-card-content h5 {
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.svg-card-content p {
+  color: #555;
+  line-height: 1.6;
+}
+
+
+.corner-icon {
+  position: absolute;
+  bottom: -50px;
+  right: 20px;
+  width: 65px;
+  height: 65px;
+  background-color: #38abe1;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 10px rgba(56, 171, 225, 0.35);
+  z-index: 3;
+}
+
+.corner-icon img {
+  width: 25px;
+  height: 25px;
+  filter: brightness(0) invert(1);
+}
+
+
+.svg-card:hover {
+  transform: translateY(-5px);
+  transition: all 0.3s ease;
+}

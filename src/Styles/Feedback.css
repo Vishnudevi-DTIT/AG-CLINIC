@@ -1,0 +1,99 @@
+.my-5 {
+    margin-top: 10rem !important;
+    margin-bottom: 3rem !important;
+}
+.feedback-heading {
+  position: relative;
+  
+  color: #eef8fd !important;
+  font-family: "Poppins" !important;
+  font-size: 26px; 
+  text-align: center;
+
+}
+
+
+.feedback-heading::after {
+  content: "";
+  position: absolute;
+  width: 70px;
+  height: 3px;
+  bottom: -10px;
+  left: 50%;             
+  transform: translateX(-50%); 
+  background-color: #b5bd1d;
+}
+.quote-icon {
+  position: absolute;
+  bottom: -190px;
+  right: 5px;
+  font-size: 90px;
+  color: #eaecef;
+}
+
+
+@media (max-width: 992px) {
+  .feedback-heading {
+    font-size: 22px;
+  }
+
+  .feedback-heading::after {
+    width: 60px;
+  }
+
+  .quote-icon {
+    bottom: -140px; 
+    font-size: 70px; 
+  }
+
+  .GirlDoc-img {
+   
+    height: 220px;
+    transform: translateY(-20px); 
+  }
+}
+
+
+@media (max-width: 576px) {
+  .feedback-heading {
+    font-size: 20px;
+    margin-bottom: 1rem;
+  }
+
+  .feedback-heading::after {
+    width: 50px;
+    height: 2px;
+  }
+
+  .quote-icon {
+    bottom: -100px;
+    right: 10px;
+    font-size: 50px;
+  }
+
+  .GirlDoc-img {
+    transform: translateY(-20px); 
+    width: 100%;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+  }
+
+  .svg-card {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .card-content {
+    text-align: center;
+    padding: 0.75rem;
+  }
+
+  .card-content img.rounded-circle {
+    margin: 0 auto 10px;
+    display: block;
+  }
+}
+
+
+
+ 

@@ -1,0 +1,35 @@
+.section{
+  background-color: white !important;
+}
+
+.appointment-box {
+  position: relative;
+  border-radius: 20px;
+  overflow: visible;
+}
+
+
+.consultation-tab-vertical {
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  position: absolute;
+  top: 50%;
+  right: -40px; 
+  transform: translateY(-50%);
+  background-color:  #055CA3;
+;
+  padding: 15px 8px 38px 7px;
+  font-size: 20px;
+  font-weight: 600;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 12px;
+  border-bottom-left-radius: 0px; 
+   border-bottom-right-radius: 12px; 
+   height: 250px;
+
+
+}
+.RightSide{
+  position: relative;
+  right :-50px;
+}

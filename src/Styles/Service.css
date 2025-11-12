@@ -1,0 +1,41 @@
+
+
+.text-primary {
+  color: #5c9ddc !important;
+}
+.service-heading {
+  position: relative;
+  display: inline-block;
+  color: #37ACE2 !important;
+  font-family: "Poppins" !important;
+  font-size: 30px;
+}
+.service-heading::after{
+   
+  
+  content: "";
+  position: absolute;
+  width: 69px;
+  height: 3px;
+  bottom: -10px;
+  left:30%;
+  background-color: #D7DE36;
+ 
+}
+
+.support-bar {
+  width: 100%; 
+  transform: translateX(-25%);
+  width: 125%; 
+  border-top-left-radius: 20px; 
+}
+
+
+@media (max-width: 768px) {
+  .support-bar {
+    width: 100% !important;
+    transform: none !important;
+    border-radius: 0 !important;
+    position: relative !important;
+  }
+}

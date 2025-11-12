@@ -1,0 +1,57 @@
+.Faq-heading {
+  position: relative;
+  display: inline-block; 
+  color: #37ACE2 !important;
+  font-family: "Poppins" !important;
+  font-size: 43px; 
+  text-align: center;
+}
+
+
+.Faq-heading::after {
+  content: "";
+  position: absolute;
+  width: 70px;
+  height: 3px;
+  bottom: -10px;
+  left: 50%;             
+  transform: translateX(-50%); 
+  background-color: #D7DE36;
+}
+
+
+
+img.doctor-img {
+  position: relative;
+  z-index: 2; 
+  
+  border-radius: 45px !important;
+ 
+}
+
+
+.person-img {
+  z-index: 3; 
+  bottom: -70px;
+  transform: translate(-100%); 
+  border-radius: 15px;
+ border: 14px solid #fff; 
+ 
+}
+
+.Main {
+  font-size: 20px !important;
+  font-weight: 600 !important;
+  font-family: "Poppins", sans-serif;
+  color: #000;
+}
+
+
+
+@media (max-width: 768px) {
+  .person-img {
+    width: 60% !important;
+    transform: translate(-5%, -10%);
+  }
+}
+

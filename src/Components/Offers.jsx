@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col, Card } from "react-bootstrap";
-// import OffersBG from "../assets/OffersBG.png";
+
 import OffersArrow from "../assets/OfferArrow.png";
 import Consult from "../assets/Consult.png"
 import Diabetes from "../assets/Diabetes.png"
@@ -30,7 +30,7 @@ function Offers() {
        >
         <Col md={6} lg={4}>
   <div className="svg-card position-relative  my-5">
-    {/* SVG Shape Background */}
+    
     <svg
       className="card-svg-bg"
       viewBox="0 0 400 330"
@@ -56,7 +56,7 @@ function Offers() {
       />
     </svg>
 
-    {/* Actual Card Content */}
+   
     <div className="svg-card-content text-center p-4">
       <img src={Consult} alt="Consultation" className="service-icon mb-3" />
       <h5
@@ -77,7 +77,7 @@ function Offers() {
         check-ups for early detection and wellness.
       </p>
 
-      {/* Blue Corner Icon */}
+     
       <div className="corner-icon"
       style={{
         marginBottom:"-40px",
@@ -96,7 +96,7 @@ function Offers() {
           
           <Col md={6} lg={4}>
   <div className="svg-card position-relative mb-5">
-    {/* SVG Shape Background */}
+    
     <svg
       className="card-svg-bg "
       viewBox="0 0 400 330"
@@ -122,7 +122,7 @@ function Offers() {
       />
     </svg>
 
-    {/* Actual Card Content */}
+    
 
     <div className="svg-card-content text-center p-4 ">
       <img src={Diabetes} alt="Consultation" className="service-icon mb-3" />
@@ -144,7 +144,7 @@ function Offers() {
         Expert care for Type 1, Type 2, and prediabetes. Personalized plans with lifestyle guidance and treatment. Helping you stay healthy and prevent complications.
       </p>
 
-      {/* Blue Corner Icon */}
+     
        <div className="corner-icon"
        style={{
         
@@ -165,7 +165,7 @@ function Offers() {
           
           <Col md={6} lg={4}>
   <div className="svg-card position-relative">
-    {/* SVG Shape Background */}
+  
     <svg
       className="card-svg-bg"
       viewBox="0 0 400 330"
@@ -191,7 +191,7 @@ function Offers() {
       />
     </svg>
 
-    {/* Actual Card Content */}
+    
     <div className="svg-card-content text-center p-4 my-5">
       <img src={Skin} alt="Consultation" className="service-icon mb-3" />
       <h5
@@ -211,7 +211,7 @@ function Offers() {
         Comprehensive care for acne, pigmentation, and allergies. Advanced dermatology solutions for all skin types.Restoring healthy, glowing, and confident skin.
       </p>
 
-      {/* Blue Corner Icon */}
+    
       <div className="corner-icon"
        style={{
         
@@ -255,7 +255,7 @@ function Offers() {
       />
     </svg>
 
-    {/* Actual Card Content */}
+    
     <div className="svg-card-content text-center p-4">
       <img src={HairTreatment} alt="Consultation" className="service-icon mb-3" />
       <h5
@@ -275,7 +275,7 @@ function Offers() {
         Specialized care for hair fall, dandruff, and scalp issues.Advanced trichology solutions for stronger, healthier hair. Revive your confidence with expert hair restoration.
       </p>
 
-      {/* Blue Corner Icon */}
+      
       <div className="corner-icon "
 style={{
          marginBottom:"-25px",
@@ -291,7 +291,7 @@ style={{
          
           <Col md={6} lg={4}>
   <div className="svg-card position-relative">
-    {/* SVG Shape Background */}
+    
     <svg
       className="card-svg-bg"
       viewBox="0 0 400 330"
@@ -317,7 +317,7 @@ style={{
       />
     </svg>
 
-    {/* Actual Card Content */}
+    
     <div className="svg-card-content text-center p-4">
       <img src={Cosmetic} alt="Consultation" className="service-icon mb-3" />
       <h5
@@ -338,7 +338,7 @@ style={{
 technology.
       </p>
 
-      {/* Blue Corner Icon */}
+    
       <div className="corner-icon"
       style={{
         

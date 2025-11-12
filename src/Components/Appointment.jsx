@@ -21,7 +21,7 @@ function Appointment() {
             
             <Col md={6}>
               <div className="appointment-box position-relative p-4 bg-white shadow-sm rounded-4 LeftSide">
-                {/* --- Title --- */}
+                
                 <h3
                   className="fw-bold "
                   style={{

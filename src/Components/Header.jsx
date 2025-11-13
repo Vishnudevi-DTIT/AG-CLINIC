@@ -4,53 +4,64 @@ import Logo from "../assets/Logo.png";
 
 function Header() {
   return (
-    <div className=" Header">
-      <div className="container py-5 " style={{ marginLeft: "-5px" }}>
-        <div className="row align-items-center">
-          <div className="col-md-3 text-center text-md-start mb-3 mb-md-0">
-            <img src={Logo} alt="AG Clinic Logo" style={{ width: "200px" }} />
+    <header className="Header py-4">
+      <div className="container">
+        <div className="row align-items-center gy-3 gy-md-0">
+          {/* --- Logo --- */}
+          <div className="col-12 col-md-3 text-center text-md-start">
+            <img
+              src={Logo}
+              alt="AG Clinic Logo"
+              className="img-fluid"
+              style={{ width: "180px", maxWidth: "100%" }}
+            />
           </div>
 
-          <div className="col-md-6 text-center">
-            <div className="d-flex flex-column flex-md-row justify-content-center align-items-center gap-5">
-              <div className="d-flex align-items-center">
+          {/* --- Contact Info --- */}
+          <div className="col-12 col-md-6 text-center">
+            <div className="d-flex flex-column flex-md-row justify-content-center align-items-center gap-4">
+              {/* Phone */}
+              <div className="d-flex align-items-center justify-content-center">
                 <div
                   className="rounded-circle d-flex justify-content-center align-items-center me-2"
                   style={{
                     backgroundColor: "#e6f3fc",
-                    width: "30px",
-                    height: "30px",
+                    width: "35px",
+                    height: "35px",
                   }}
                 >
                   <FaPhoneAlt className="text-primary" />
                 </div>
-
                 <div className="text-start">
                   <p
-                    className="mb-0 fw-bold "
+                    className="mb-0 fw-bold"
                     style={{
-                      fontSize: "15px",
+                      fontSize: "14px",
                       fontFamily: "Poppins",
                     }}
                   >
                     Phone Number
                   </p>
                   <p
-                    className="mb-0  fw-bold fs-6"
-                    style={{ color: " #38ABE1" }}
+                    className="mb-0 fw-bold"
+                    style={{
+                      color: "#38ABE1",
+                      fontSize: "15px",
+                    }}
                   >
                     +91 9890876536
                   </p>
                 </div>
               </div>
 
-              <div className="d-flex align-items-center">
+              {/* Email */}
+              <div className="d-flex align-items-center justify-content-center">
                 <div
                   className="rounded-circle d-flex justify-content-center align-items-center me-2"
                   style={{
                     backgroundColor: "#e6f3fc",
-                    width: "30px",
-                    height: "30px",
+                    width: "35px",
+                    height: "35px",
                   }}
                 >
                   <FaEnvelope className="text-primary" />
@@ -59,16 +70,16 @@ function Header() {
                   <p
                     className="mb-0 fw-bold"
                     style={{
+                      fontSize: "14px",
                       fontFamily: "Poppins",
                     }}
                   >
                     Email Account
                   </p>
                   <p
-                    className="mb-0 fw-bold  "
+                    className="mb-0 fw-bold"
                     style={{
                       color: "#38ABE1",
-                      fontFamily: "Poppins",
                       fontSize: "15px",
                     }}
                   >
@@ -79,9 +90,10 @@ function Header() {
             </div>
           </div>
 
-          <div className="col-md-3 text-center text-md-end mt-3 mt-md-0">
+          {/* --- Button --- */}
+          <div className="col-12 col-md-3 text-center text-md-end">
             <button
-              className="btn px-4 py-3 fw-bold text-white"
+              className="btn fw-bold text-white px-4 py-2"
               style={{
                 border: "none",
                 borderRadius: "30px",
@@ -93,7 +105,7 @@ function Header() {
           </div>
         </div>
       </div>
-    </div>
+    </header>
   );
 }
 

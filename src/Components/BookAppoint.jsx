@@ -16,7 +16,7 @@ function BookAppoint() {
           WebkitBorderTopRightRadius: "40px",
           borderBottomLeftRadius: "0px",
           backgroundColor: "#fff",
-          overflow: "hidden", 
+          overflow: "hidden", // curved edges
           borderColor: "black",
         }}
       >

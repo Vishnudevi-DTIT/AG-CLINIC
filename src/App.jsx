@@ -17,19 +17,19 @@ function App() {
 
   return (
     <>
-     <Header/>
+      <Header/>
       
       <Nav/>
-      <Service/>
+       <Service/>
       <Offers/>  
-      <FAQ/> 
-         
+      <FAQ/>  
+          
         
          <Feedback/>
          <Appointment/>
-        
-         <BookAppoint/>
-      <Footer/>
+         
+         <BookAppoint/> 
+       <Footer/> 
 
     </>
   )

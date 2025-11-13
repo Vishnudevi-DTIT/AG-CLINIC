@@ -1,4 +1,6 @@
 import React from "react";
+import "../Styles/Banner.css";
+
 import Bannerimg from "../assets/Bannerimg.jpg";
 import { FaPhoneAlt } from "react-icons/fa";
 function Banner() {

@@ -28,6 +28,7 @@
   transform: translateX(-25%);
   width: 125%; 
   border-top-left-radius: 20px; 
+ 
 }
 
 
@@ -37,5 +38,6 @@
     transform: none !important;
     border-radius: 0 !important;
     position: relative !important;
+     
   }
 }

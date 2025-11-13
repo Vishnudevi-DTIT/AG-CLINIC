@@ -26,7 +26,7 @@
   background-color: #D7DE36;
  
 }
-
+/* --- SVG Card Wrapper --- */
 .svg-card {
   position: relative;
   width: 100%;
@@ -35,6 +35,7 @@
   margin: auto;
 }
 
+/* SVG background layer */
 .card-svg-bg {
   position: absolute;
   top: 0;
@@ -45,6 +46,7 @@
   z-index: 1;
 }
 
+/* Content sits above SVG */
 .svg-card-content {
   position: relative;
   z-index: 2;
@@ -52,6 +54,7 @@
   background: transparent;
 }
 
+/* Icon */
 .service-icon {
   width: 95px;
   height: 55px;
@@ -59,7 +62,7 @@
   
 }
 
-
+/* Text styles */
 .svg-card-content h5 {
   font-weight: 700;
   margin-bottom: 10px;
@@ -70,7 +73,7 @@
   line-height: 1.6;
 }
 
-
+/* Blue Arrow Icon */
 .corner-icon {
   position: absolute;
   bottom: -50px;
@@ -92,7 +95,7 @@
   filter: brightness(0) invert(1);
 }
 
-
+/* Hover effect */
 .svg-card:hover {
   transform: translateY(-5px);
   transition: all 0.3s ease;

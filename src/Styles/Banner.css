@@ -1,4 +1,4 @@
-
+/* 
  .Container {
   position: relative;
   width: 100%;
@@ -70,9 +70,15 @@
   justify-content: center;
 }
 
-@media (max-width: 992px) {
+/* 💻 Tablet Screens (992px and below) */
+/* @media (max-width: 992px) {
+  .Container {
+    height: 420px;
+  }
+
   .img img {
-    height: 400px;
+    height: 100%;
+    margin-top: -100px;
   }
 
   .Banner h1 {
@@ -80,30 +86,30 @@
   }
 
   .Banner p {
-   font-size: 1rem;
-    max-width: 500px;
+    font-size: 1rem;
+    max-width: 80%;
   }
 
   .contact {
-    left: 60%;
+    bottom: 15px;
+    right: 5%;
     width: 180px;
   }
-}
+} */
 
-
-@media (max-width: 768px) {
-  
+/* 📱 Mobile Devices (768px and below) */
+/* @media (max-width: 768px) {
   .Container {
+    height: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: auto;
-  
   }
 
   .img img {
     height: auto;
     min-height: 60vh;
+    margin-top: -100px;
   }
 
   .Banner {
@@ -111,8 +117,7 @@
     top: 0;
     left: 0;
     transform: none;
-    color: white;
-    margin-top: -180px; 
+    margin-top: -150px;
   }
 
   .Banner h1 {
@@ -121,31 +126,32 @@
 
   .Banner p {
     font-size: 0.95rem;
-    color: #f1f1f1;
     max-width: 90%;
   }
 
   .contact {
     position: relative;
     bottom: 0;
-    left: 0;
+    right: 0;
     transform: none;
-    margin: 15px auto;
-    width: 190px;
-   width: 160px;
+    margin: 20px auto;
+    width: 160px;
     padding: 8px 10px;
-  
   }
-}
+} */
 
+/* 📲 Small Phones (480px and below) */
+/* @media (max-width: 480px) {
+  .Container {
+    height: auto;
+  }
 
-@media (max-width: 480px) {
   .Banner {
-    margin-top: -120px;
+    margin-top: -100px;
   }
 
   .Banner h1 {
-    font-size: 1.5rem;
+    font-size: 1.9rem;
   }
 
   .Banner p {
@@ -153,9 +159,146 @@
   }
 
   .contact {
-    width: 160px;
-    padding: 8px 10px;
+    width: 150px;
+    padding: 8px;
+  }
+} */
+
+/* 🌄 Background Image */
+.img {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center top;
+  filter: brightness(40%);
+  transition: all 0.4s ease-in-out;
+}
+
+/* 🧠 Default Desktop View */
+.Container {
+  position: relative;
+  width: 100%;
+  height: 90vh; /* fills most of screen */
+  max-height: 700px;
+  overflow: hidden;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+}
+
+/* 💻 Tablets */
+@media (max-width: 992px) {
+  .Container {
+    height: 70vh;
+  }
+
+  .img img {
+    object-position: center;
+  }
+
+  .Banner h1 {
+    font-size: 2rem;
+  }
+
+  .Banner p {
+    font-size: 1rem;
+    max-width: 85%;
+  }
+
+  .contact {
+    right: 5%;
+    width: 170px;
+    bottom: 15px;
   }
 }
 
+/* 📱 Mobile Devices */
+@media (max-width: 768px) {
+  .Container {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: visible;
+  }
 
+  .img {
+    height: 60vh;
+  }
+
+  .img img {
+    object-position: center center;
+    height: 100%;
+    width: 100%;
+  }
+
+  .Banner {
+    position: relative;
+    top: 0;
+    left: 0;
+    transform: none;
+    text-align: center;
+    margin-top: -80px;
+    padding: 1rem 1.2rem;
+  }
+
+  .Banner h1 {
+    font-size: 1.7rem;
+  }
+
+  .Banner p {
+    font-size: 0.95rem;
+    line-height: 1.5;
+    max-width: 90%;
+  }
+
+  .contact {
+    position: relative;
+    bottom: 0;
+    right: 0;
+    transform: none;
+    margin: 15px auto 30px;
+    width: 160px;
+    padding: 10px;
+  }
+}
+
+/* 📲 Small Phones (Under 480px) */
+@media (max-width: 480px) {
+  .Container {
+    height: auto;
+  }
+
+  .img {
+    height: 40vh;
+  }
+
+  .img img {
+    object-position: center center;
+  }
+
+  .Banner {
+    margin-top: -190px;
+    padding: 0 1rem;
+  }
+
+  .Banner h1 {
+    font-size: 1.4rem;
+  }
+
+  .Banner p {
+    font-size: 0.8rem;
+  }
+
+  .contact {
+    width: 140px;
+    padding: 8px;
+    margin-top: -2px;
+  }
+}

@@ -1,0 +1,33 @@
+@media (max-width: 991px) {
+  .Header img {
+    width: 150px !important;
+  }
+
+  .Header .btn {
+    padding: 10px 20px !important;
+    font-size: 14px !important;
+  }
+
+  .Header p {
+    font-size: 13px !important;
+  }
+
+  .Header .gap-4 {
+    gap: 1rem !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .Header {
+    text-align: center;
+  }
+
+  .Header .d-flex.flex-md-row {
+    flex-direction: column !important;
+  }
+
+  .Header .col-md-3,
+  .Header .col-md-6 {
+    text-align: center !important;
+  }
+}

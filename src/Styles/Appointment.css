@@ -31,5 +31,75 @@
 }
 .RightSide{
   position: relative;
-  right :-50px;
+  right :-0px;
+}
+
+/* --- 📲 Tablets Portrait (768px and below) --- */
+@media (max-width: 768px) {
+  .consultation-tab-vertical {
+    position: relative;
+    writing-mode: horizontal-tb;
+    text-orientation: initial;
+    transform: none;
+    top: auto;
+    right: auto;
+    margin: 20px auto 0 auto;
+    width: fit-content;
+    padding: 10px 20px;
+    height: auto;
+    border-radius: 30px;
+    font-size: 16px;
+  }
+
+  .appointment-box {
+    padding: 25px 20px;
+  }
+
+  .RightSide {
+    position: relative;
+    right: 0;
+    margin-top: 2rem;
+  }
+}
+
+/* --- 📞 Mobile Devices (576px and below) --- */
+@media (max-width: 576px) {
+  .consultation-tab-vertical {
+    font-size: 15px;
+    padding: 8px 18px;
+    margin-top: 15px;
+  }
+
+  .appointment-box {
+    padding: 20px 15px;
+  }
+
+  .RightSide {
+    margin-top: 1.5rem;
+  }
+
+  .appointment-box h3 {
+    font-size: 26px !important;
+  }
+
+  .appointment-subtitle {
+    font-size: 20px !important;
+  }
+}
+
+/* --- 📱 Extra Small Devices (400px and below) --- */
+@media (max-width: 400px) {
+  .consultation-tab-vertical {
+    font-size: 14px;
+    padding: 7px 15px;
+    margin-top: 10px;
+  }
+
+  .appointment-box h3 {
+    font-size: 22px !important;
+  }
+
+  .RightSide {
+    margin-top: 1rem;
+  }
 }

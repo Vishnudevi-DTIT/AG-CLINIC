@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import { FaFacebookF, FaInstagram, FaTimes } from "react-icons/fa";
 import { FiPhoneCall, FiMapPin } from "react-icons/fi";
-import logo from "../assets/logo.png"; // change path to your logo
+import logo from "../assets/Logo.png"; 
 import { FiChevronRight } from "react-icons/fi";
 
 function Footer() {
